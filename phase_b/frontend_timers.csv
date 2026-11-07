@@ -1,0 +1,15 @@
+id,page_scope,component_or_function,mechanism,interval_ms,data_updated,invocation_condition,runtime_observed,evidence,notes
+T01,round grid,.card-items countdown,inline setInterval -> intervalTimer,1000,countdown text,yes on grid pages,yes (visible),inline page script,server-seeded countdown
+T02,round detail,inline setTimer / intervalTimer,inline setInterval -> intervalTimer,1000,countdown text,yes on detail page,yes (visible),inline page script,reloads at shoot end
+T03,round detail,Vue intervalTimer,setInterval,1000,bet countdown + isOpen + auto-reload,yes when Vue detail component mounts,code path observed; reload not directly timed,main.js 362822,reload when countdown to close+2m < 0
+T04,round detail,Vue intervalCloseDate,setInterval,1000,close countdown,yes on betting pages,not separately measured,main.js 321020/332054,government/stock components
+T05,round detail,Vue intervalYeekee,setInterval,1000,yeekee countdown,yes when isYeekee,not separately measured,main.js 362822,1-second countdown
+T06,round detail,Vue getYeekeeNumberList,setInterval,60000,submission list + sum,isYeekee && yeekeeCountdownTimer, YES: t0+60.0s and t0+120.0s,runtime network log,does not fetch chart or result
+T07,round detail,Vue getYeekeeChart,one-shot GET,once,chart data,mount,yes at t0 only,runtime network log,not repeated
+T08,round detail,processBtnYeekee,setInterval,1000,button cooldown,after a submission,not invoked,main.js 344223,not tested because submissions are prohibited
+T09,round detail,randomYeekeeNumber,setInterval,20,UI animation,button click,not invoked,main.js 342745,UI only
+T10,bet UI,randomNumber,setInterval,100/250,UI animation,button click,not invoked,main.js 314987/325900,UI only
+T11,login/UI,custom.js credit refresh,setTimeout,1000,credit text,click on credit box,not invoked,custom.js,not a round timer
+T12,sitewide,Pusher,pong_timeout/unavailable_timeout,6000/2000,WebSocket transport,always,WebSocket loaded,inline script,not round polling
+T13,sitewide,Cloudflare RUM,beacon,not app-defined,telemetry,page load/visibility,observed,network log,not round data
+T14,round grid,result grid refresh,server-rendered,not app-defined,result cards,server-side,grid lags detail page by minutes,Phase B monitor,no client XHR observed

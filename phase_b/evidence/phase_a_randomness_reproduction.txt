@@ -1,0 +1,29 @@
+n = 53 rounds (2026-11-07, rounds 1-53)
+
+[1] Last-digit uniformity (10 bins)
+    counts: [2, 5, 3, 8, 4, 5, 7, 4, 6, 9]
+    chi2 = 8.321, df=9, p = 0.5022  (underpowered: expected 5.3/bin)
+
+[2] Bottom-2 (100 bins) exact-style Monte Carlo, 20k draws
+    observed distinct = 39/100, max bin = 3
+    P(max bin >= observed | uniform) = 0.842
+    P(distinct <= observed | uniform) = 0.225
+
+[3] Runs test, top-3 above/below median
+    median = 473, runs = 29, expected = 27.49, z = 0.419, p = 0.6753
+
+[4] Lag-1 autocorrelation of 5-digit outcome
+    r = -0.1205, SE ~ 0.1374, approx 95% band = +/-0.2692
+
+[5] 'Hot last digit' heuristic (train rounds 1-30, test 31-53)
+    hot digit = 9, hits = 3/23, expected = 2.3
+    P(X >= hits | p=0.1) = 0.408
+
+[6] Monte Carlo of published formula with empirical submission pool
+    pool size = 337, draws/round = 168, simulations = 20000
+    last-digit counts = [1953, 2084, 1967, 1923, 1983, 1980, 2008, 2086, 2050, 1966]
+    chi2 = 14.044, df=9, p = 0.1208 (expect ~uniform)
+
+Interpretation: with n=53, none of these tests can establish or refute
+predictability at the 3-digit level. Any p-value near 0.05 here is
+exploratory and must be replicated on unseen future rounds.

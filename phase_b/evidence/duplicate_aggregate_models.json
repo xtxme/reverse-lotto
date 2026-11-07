@@ -1,0 +1,57 @@
+{
+  "A": {
+    "obs_total_duplicate_entries": 52,
+    "sim_mean_duplicate_entries": 0.86,
+    "sim_p2.5_duplicate_entries": 0,
+    "sim_p97.5_duplicate_entries": 3,
+    "p_dup_ge_obs": 5e-05,
+    "obs_total_colliding_pairs": 61,
+    "sim_mean_colliding_pairs": 0.87,
+    "sim_p97.5_colliding_pairs": 3,
+    "p_pairs_ge_obs": 5e-05
+  },
+  "B": {
+    "obs_total_duplicate_entries": 52,
+    "sim_mean_duplicate_entries": 102.27,
+    "sim_p2.5_duplicate_entries": 85,
+    "sim_p97.5_duplicate_entries": 120,
+    "p_dup_ge_obs": 1.0,
+    "obs_total_colliding_pairs": 61,
+    "sim_mean_colliding_pairs": 112.63,
+    "sim_p97.5_colliding_pairs": 137,
+    "p_pairs_ge_obs": 1.0
+  },
+  "C0.5": {
+    "obs_total_duplicate_entries": 52,
+    "sim_mean_duplicate_entries": 27.36,
+    "sim_p2.5_duplicate_entries": 18,
+    "sim_p97.5_duplicate_entries": 38,
+    "p_dup_ge_obs": 5e-05,
+    "obs_total_colliding_pairs": 61,
+    "sim_mean_colliding_pairs": 28.75,
+    "sim_p97.5_colliding_pairs": 41,
+    "p_pairs_ge_obs": 5e-05
+  },
+  "C0.9": {
+    "obs_total_duplicate_entries": 52,
+    "sim_mean_duplicate_entries": 1.95,
+    "sim_p2.5_duplicate_entries": 0,
+    "sim_p97.5_duplicate_entries": 5,
+    "p_dup_ge_obs": 5e-05,
+    "obs_total_colliding_pairs": 61,
+    "sim_mean_colliding_pairs": 1.97,
+    "sim_p97.5_colliding_pairs": 5,
+    "p_pairs_ge_obs": 5e-05
+  },
+  "D": {
+    "obs_total_duplicate_entries": 52,
+    "sim_mean_duplicate_entries": 0.9,
+    "sim_p2.5_duplicate_entries": 0,
+    "sim_p97.5_duplicate_entries": 3,
+    "p_dup_ge_obs": 5e-05,
+    "obs_total_colliding_pairs": 61,
+    "sim_mean_colliding_pairs": 0.9,
+    "sim_p97.5_colliding_pairs": 3,
+    "p_pairs_ge_obs": 5e-05
+  }
+}

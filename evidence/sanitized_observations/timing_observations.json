@@ -1,0 +1,65 @@
+{
+  "timezone": "Asia/Bangkok (UTC+7)",
+  "clock_reference": {
+    "method": "curl -I https://thlotto.com/login, compare HTTP Date header with local UTC clock",
+    "samples_utc": ["2026-11-07T12:06:30Z", "2026-11-07T12:06:30Z", "2026-11-07T12:06:31Z"],
+    "local_utc_range": "2026-11-07T12:06:29.6Z to 12:06:30.9Z",
+    "observed_offset": "within +/-1 s (limited by 1-second HTTP Date granularity)"
+  },
+  "round_55": {
+    "period_id": 231,
+    "round": 55,
+    "close_local": "2026-11-07 19:30:00",
+    "shoot_close_local": "2026-11-07 19:32:00",
+    "pool_snapshots": [
+      {"local": "19:26:02", "list_count_capped": 0, "list_sum": 0, "page_has_sum_section": false},
+      {"local": "19:27:52", "list_count_capped": 0, "list_sum": 0, "page_has_sum_section": false},
+      {"local": "19:28:02", "list_count_capped": 1, "list_sum": 46128, "page_has_sum_section": false},
+      {"local": "19:28:22", "list_count_capped": 2, "list_sum": 47592, "page_has_sum_section": false},
+      {"local": "19:28:32", "list_count_capped": 4, "list_sum": 177809, "page_has_sum_section": false},
+      {"local": "19:29:02", "list_count_capped": 5, "list_sum": 188748, "page_has_sum_section": false},
+      {"local": "19:32:01", "list_count_capped": 20, "list_sum": 7422657, "page_has_sum_section": false}
+    ],
+    "publication_probe": {
+      "page_fetch_local": "19:32:01",
+      "page_has_result": false,
+      "first_poll_with_result_local": "19:32:18",
+      "result_present_by": "19:32:18",
+      "upper_bound_seconds_after_shoot_close": 18,
+      "result": {"sum": 7422657, "sixteenth": 58470, "raw_result": 7364187, "top3": "187", "bottom2": "64"},
+      "poll_interval_seconds": 5
+    },
+    "pool_size": 151,
+    "pool_earliest_submission_local": "19:27:53",
+    "pool_latest_submission_local": "19:31:59",
+    "distinct_submission_seconds": 23
+  },
+  "round_53": {
+    "period_id": 229,
+    "round": 53,
+    "close_local": "2026-11-07 19:00:00",
+    "shoot_close_local": "2026-11-07 19:02:00",
+    "first_observed_result_local": "<=2026-11-07 19:02:47",
+    "result": {"sum": 9281577, "sixteenth": 80308, "raw_result": 9201269, "top3": "269", "bottom2": "01"},
+    "pool_size": 173,
+    "pool_earliest_submission_local": "18:58:55",
+    "pool_latest_submission_local": "19:01:59"
+  },
+  "round_54": {
+    "period_id": 230,
+    "round": 54,
+    "close_local": "2026-11-07 19:15:00",
+    "shoot_close_local": "2026-11-07 19:17:00",
+    "result_present_by_local": "2026-11-07 19:20:19",
+    "result": {"sum": 7724164, "sixteenth": 62839, "raw_result": 7661325, "top3": "325", "bottom2": "61"},
+    "pool_size": 164,
+    "pool_earliest_submission_local": "19:13:35",
+    "pool_latest_submission_local": "19:16:59"
+  },
+  "notes": [
+    "All times are local Asia/Bangkok.",
+    "list_count_capped is the number of items returned by the list endpoint with limit=19 (server returns at most 20); it is not the total pool size.",
+    "The result page is server-rendered; has_result is determined by the presence of the 'ผลรางวัล' block.",
+    "Round 55 gives the tightest publication bound because page fetches bracketed the transition."
+  ]
+}

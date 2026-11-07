@@ -1,0 +1,268 @@
+{
+  "rounds": [
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59
+  ],
+  "total_submissions": 1097,
+  "global_unique_numbers": 1023,
+  "numbers_in_2plus_rounds": 14,
+  "numbers_in_3plus_rounds": 5,
+  "pct_numbers_in_2plus_rounds_of_all_submissions": 4.74,
+  "jaccard_pairwise": {
+    "53-54": 0.0096,
+    "53-55": 0.0065,
+    "53-56": 0.0099,
+    "53-57": 0.0066,
+    "53-58": 0.0066,
+    "53-59": 0.0062,
+    "54-55": 0.0034,
+    "54-56": 0.0103,
+    "54-57": 0.0034,
+    "54-58": 0.0,
+    "54-59": 0.0098,
+    "55-56": 0.007,
+    "55-57": 0.0035,
+    "55-58": 0.0035,
+    "55-59": 0.0033,
+    "56-57": 0.0071,
+    "56-58": 0.0035,
+    "56-59": 0.0067,
+    "57-58": 0.0071,
+    "57-59": 0.0,
+    "58-59": 0.0
+  },
+  "split_half_pearson_r_all_seen_numbers": -0.7075,
+  "split_half_pearson_note": "Not used as evidence: sparse 100k-category space and unequal half totals; dominated by zeros. Use pairwise overlap and recurring-number tail instead.",
+  "split_half_top20_overlap": 4,
+  "leading_digit": {
+    "0": 99,
+    "1": 105,
+    "2": 116,
+    "3": 105,
+    "4": 119,
+    "5": 119,
+    "6": 106,
+    "7": 106,
+    "8": 123,
+    "9": 99
+  },
+  "trailing_digit": {
+    "0": 96,
+    "1": 112,
+    "2": 111,
+    "3": 115,
+    "4": 108,
+    "5": 113,
+    "6": 100,
+    "7": 112,
+    "8": 134,
+    "9": 96
+  },
+  "all_same_digits": 23,
+  "four_same_digits": 9,
+  "palindromes": 46,
+  "top10_share": 0.0419,
+  "hhi": 0.001149,
+  "top_recurring": [
+    {
+      "number": "37553",
+      "count": 8,
+      "rounds": [
+        53,
+        54,
+        59
+      ]
+    },
+    {
+      "number": "66666",
+      "count": 8,
+      "rounds": [
+        54,
+        55,
+        56,
+        59
+      ]
+    },
+    {
+      "number": "55014",
+      "count": 6,
+      "rounds": [
+        53,
+        54
+      ]
+    },
+    {
+      "number": "85858",
+      "count": 5,
+      "rounds": [
+        53,
+        55,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "number": "88888",
+      "count": 5,
+      "rounds": [
+        53,
+        54,
+        57
+      ]
+    },
+    {
+      "number": "00000",
+      "count": 4,
+      "rounds": [
+        54,
+        56,
+        59
+      ]
+    },
+    {
+      "number": "55555",
+      "count": 3,
+      "rounds": [
+        54
+      ]
+    },
+    {
+      "number": "55359",
+      "count": 3,
+      "rounds": [
+        59
+      ]
+    },
+    {
+      "number": "03002",
+      "count": 2,
+      "rounds": [
+        53
+      ]
+    },
+    {
+      "number": "83018",
+      "count": 2,
+      "rounds": [
+        53
+      ]
+    },
+    {
+      "number": "90928",
+      "count": 2,
+      "rounds": [
+        53
+      ]
+    },
+    {
+      "number": "53871",
+      "count": 2,
+      "rounds": [
+        53
+      ]
+    },
+    {
+      "number": "57330",
+      "count": 2,
+      "rounds": [
+        53,
+        59
+      ]
+    },
+    {
+      "number": "06608",
+      "count": 2,
+      "rounds": [
+        53,
+        56
+      ]
+    },
+    {
+      "number": "86986",
+      "count": 2,
+      "rounds": [
+        53,
+        55
+      ]
+    },
+    {
+      "number": "12345",
+      "count": 2,
+      "rounds": [
+        53,
+        58
+      ]
+    },
+    {
+      "number": "84282",
+      "count": 2,
+      "rounds": [
+        53,
+        56
+      ]
+    },
+    {
+      "number": "11323",
+      "count": 2,
+      "rounds": [
+        54
+      ]
+    },
+    {
+      "number": "62839",
+      "count": 2,
+      "rounds": [
+        54
+      ]
+    },
+    {
+      "number": "38315",
+      "count": 2,
+      "rounds": [
+        54
+      ]
+    },
+    {
+      "number": "00100",
+      "count": 2,
+      "rounds": [
+        54
+      ]
+    },
+    {
+      "number": "66003",
+      "count": 2,
+      "rounds": [
+        54,
+        56
+      ]
+    },
+    {
+      "number": "07087",
+      "count": 2,
+      "rounds": [
+        55
+      ]
+    },
+    {
+      "number": "43953",
+      "count": 2,
+      "rounds": [
+        55
+      ]
+    },
+    {
+      "number": "57259",
+      "count": 2,
+      "rounds": [
+        55
+      ]
+    }
+  ]
+}

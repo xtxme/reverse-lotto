@@ -1,0 +1,133 @@
+{
+  "observation_context": {
+    "date_local": "2026-11-07",
+    "account": "authorized test account supplied by the requester",
+    "method": "authenticated browser session; responses read through the same-origin fetch calls the application itself makes",
+    "sanitization": "session cookies, CSRF tokens, JWTs and usernames are not reproduced here; usernames in live responses are already partially masked by the site"
+  },
+  "endpoints": [
+    {
+      "id": "API-01",
+      "method": "GET",
+      "path": "/member/lottery/yeekee-list-number",
+      "query": {"id": "<round/per period category id>", "limit": "19 (UI value; server returns at most 20)", "offset": "0 (UI value)"},
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "response_shape": {
+        "lists": [
+          {
+            "username": "string (site-masked, e.g. Ab***cd)",
+            "number": "string or integer, 5 digits, leading zeros preserved when string",
+            "bet_category_id": "integer (equals the round category id used in the path)",
+            "bet_period_id": "string of digits (internal period id)",
+            "created_at": "string 'YYYY-MM-DD HH:mm:ss' (Asia/Bangkok)"
+          }
+        ],
+        "sum": "string of digits (sum of all submissions in the period)"
+      },
+      "observed_examples": [
+        {"id": 229, "returned": 20, "sum": "9281577"},
+        {"id": 230, "returned": 20, "sum": "7724164"},
+        {"id": 231, "returned": 20, "sum": "7422657"}
+      ],
+      "caching_headers": {
+        "cf-cache-status": "DYNAMIC",
+        "etag": "present (weak, quoted)",
+        "cache-control": "not present on observed JSON responses",
+        "content-length": "present"
+      },
+      "purpose_inferred": "populate the Vue 'ยิงเลข' tab list and running total",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "API-02",
+      "method": "GET",
+      "path": "/member/lottery/yeekee-chart",
+      "query": {"id": "<round/per period category id>", "limit": "19", "offset": "0"},
+      "status": 200,
+      "content_type": "application/json; charset=utf-8",
+      "response_shape": {"lists": ["array; observed empty for an unprocessed round, otherwise items are mapped client-side to sum and created_at"]},
+      "client_usage": "main.js maps t.lists to sum values and created_at labels to draw a running-sum chart",
+      "classification": "OBSERVED endpoint and client usage; non-empty payload not observed"
+    },
+    {
+      "id": "API-03",
+      "method": "POST",
+      "path": "/member/lottery/yeekee",
+      "request_shape_documented_by_client_bundle": {
+        "number": "string, validated required|numeric|digits:5",
+        "bet_category_id": "integer, the current round category id",
+        "yeekee_special": "string, optional special shoot type"
+      },
+      "response_shape_documented_by_client_bundle": {
+        "status": "'success' on accepted submission",
+        "lists": "updated list array",
+        "sum": "updated total (string or numeric; client applies parseInt)"
+      },
+      "invoked_by_researcher": false,
+      "reason_not_invoked": "instructions prohibit automating number submissions or wagering",
+      "classification": "OBSERVED in delivered client code; response contract INFERRED from the code, not executed"
+    },
+    {
+      "id": "API-04",
+      "method": "GET",
+      "path": "/member/lottery/yeekee/{periodId}",
+      "query": {"page": "1..N"},
+      "status": 200,
+      "content_type": "text/html; charset=utf-8",
+      "response_shape": "server-rendered page; 50 submission rows per page; header block with ผลรวมยิงเลข, เลขแถวที่ 16, bonus members, ผลรางวัล/สามตัวบน/สองตัวล่าง after publication",
+      "pagination_observed": {"period_id": 229, "pages": 4, "rows": [50, 50, 50, 23], "total": 173},
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "API-05",
+      "method": "GET",
+      "path": "/member/lottery/yeekee",
+      "status": 200,
+      "content_type": "text/html",
+      "response_shape": "server-rendered 88-card grid: .card-items (open/closed pending) and .card-result (published); each card carries data-href to /member/lottery/yeekee/{periodId}",
+      "classification": "OBSERVED"
+    },
+    {
+      "id": "API-06",
+      "method": "GET",
+      "path": "/member/lottery/result",
+      "query": {"date": "DD/MM/BBBB (Buddhist year, e.g. 06/11/2569)"},
+      "status": 200,
+      "content_type": "text/html",
+      "response_shape": "server-rendered results page for all products; for the 88-round Yeekee product only the latest round is shown; the 264-round 'จับยี่กีทันใจ' product shows per-round history for the selected date",
+      "classification": "OBSERVED"
+    }
+  ],
+  "websocket": {
+    "library": "Pusher JS 7.0",
+    "endpoint": "wss://*.pusher.com (cluster ap1)",
+    "public_key_present_in_html": true,
+    "channel_subscribed_by_client": "notic.agentid.33",
+    "event_binding": "numbersets",
+    "event_handler": "GET /member/number-recommend-notified?id=... then shows a PNotify toast and links to /member/number-recommend",
+    "relation_to_round_state": "none observed; channel is agent-notification scoped, not round- or result-scoped",
+    "classification": "OBSERVED"
+  },
+  "polling": {
+    "observed_periodic_round_requests": false,
+    "observed_idle_xhr": ["POST /cdn-cgi/rum (Cloudflare RUM, status 204)"],
+    "update_mechanism": "server-rendered page + client countdown; window.location.reload() when the shoot-window countdown goes negative",
+    "classification": "OBSERVED"
+  },
+  "infrastructure_headers_observed": {
+    "server": "cloudflare",
+    "cf-ray": "BKK edge",
+    "cf-cache-status": "DYNAMIC on member HTML and JSON",
+    "static_assets": "server: ESF; cache-control: private, max-age=86400, stale-while-revalidate=604800 (Google Fonts); app assets served from thlotto.com",
+    "compression": "br for HTML, gzip for some assets",
+    "x-frame-options": "SAMEORIGIN",
+    "x-content-type-options": "nosniff",
+    "x-xss-protection": "1; mode=block",
+    "x-download-options": "noopen",
+    "content-security-policy": "not observed",
+    "strict-transport-security": "not observed on application responses",
+    "access-control-allow-origin": "*",
+    "access-control-allow-credentials": "false"
+  }
+}

@@ -1,0 +1,635 @@
+{
+  "timezone": "Asia/Bangkok (UTC+7)",
+  "anchor_observation": {
+    "round": 52,
+    "close_local": "2026-11-07 18:45:00",
+    "source": "server-rendered .card-items on /member/lottery/yeekee",
+    "observed_at": "2026-11-07T18:58:00+07:00"
+  },
+  "rules": {
+    "first_round_close": "06:00",
+    "last_round_close": "03:45 next day",
+    "rounds_per_day": 88,
+    "interval_minutes": 15,
+    "betting_open": "05:00"
+  },
+  "rounds": [
+    {
+      "round": 1,
+      "close_local": "2026-11-07 06:00:00",
+      "close_utc": "2026-11-06T23:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 2,
+      "close_local": "2026-11-07 06:15:00",
+      "close_utc": "2026-11-06T23:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 3,
+      "close_local": "2026-11-07 06:30:00",
+      "close_utc": "2026-11-06T23:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 4,
+      "close_local": "2026-11-07 06:45:00",
+      "close_utc": "2026-11-06T23:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 5,
+      "close_local": "2026-11-07 07:00:00",
+      "close_utc": "2026-11-07T00:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 6,
+      "close_local": "2026-11-07 07:15:00",
+      "close_utc": "2026-11-07T00:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 7,
+      "close_local": "2026-11-07 07:30:00",
+      "close_utc": "2026-11-07T00:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 8,
+      "close_local": "2026-11-07 07:45:00",
+      "close_utc": "2026-11-07T00:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 9,
+      "close_local": "2026-11-07 08:00:00",
+      "close_utc": "2026-11-07T01:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 10,
+      "close_local": "2026-11-07 08:15:00",
+      "close_utc": "2026-11-07T01:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 11,
+      "close_local": "2026-11-07 08:30:00",
+      "close_utc": "2026-11-07T01:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 12,
+      "close_local": "2026-11-07 08:45:00",
+      "close_utc": "2026-11-07T01:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 13,
+      "close_local": "2026-11-07 09:00:00",
+      "close_utc": "2026-11-07T02:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 14,
+      "close_local": "2026-11-07 09:15:00",
+      "close_utc": "2026-11-07T02:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 15,
+      "close_local": "2026-11-07 09:30:00",
+      "close_utc": "2026-11-07T02:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 16,
+      "close_local": "2026-11-07 09:45:00",
+      "close_utc": "2026-11-07T02:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 17,
+      "close_local": "2026-11-07 10:00:00",
+      "close_utc": "2026-11-07T03:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 18,
+      "close_local": "2026-11-07 10:15:00",
+      "close_utc": "2026-11-07T03:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 19,
+      "close_local": "2026-11-07 10:30:00",
+      "close_utc": "2026-11-07T03:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 20,
+      "close_local": "2026-11-07 10:45:00",
+      "close_utc": "2026-11-07T03:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 21,
+      "close_local": "2026-11-07 11:00:00",
+      "close_utc": "2026-11-07T04:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 22,
+      "close_local": "2026-11-07 11:15:00",
+      "close_utc": "2026-11-07T04:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 23,
+      "close_local": "2026-11-07 11:30:00",
+      "close_utc": "2026-11-07T04:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 24,
+      "close_local": "2026-11-07 11:45:00",
+      "close_utc": "2026-11-07T04:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 25,
+      "close_local": "2026-11-07 12:00:00",
+      "close_utc": "2026-11-07T05:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 26,
+      "close_local": "2026-11-07 12:15:00",
+      "close_utc": "2026-11-07T05:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 27,
+      "close_local": "2026-11-07 12:30:00",
+      "close_utc": "2026-11-07T05:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 28,
+      "close_local": "2026-11-07 12:45:00",
+      "close_utc": "2026-11-07T05:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 29,
+      "close_local": "2026-11-07 13:00:00",
+      "close_utc": "2026-11-07T06:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 30,
+      "close_local": "2026-11-07 13:15:00",
+      "close_utc": "2026-11-07T06:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 31,
+      "close_local": "2026-11-07 13:30:00",
+      "close_utc": "2026-11-07T06:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 32,
+      "close_local": "2026-11-07 13:45:00",
+      "close_utc": "2026-11-07T06:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 33,
+      "close_local": "2026-11-07 14:00:00",
+      "close_utc": "2026-11-07T07:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 34,
+      "close_local": "2026-11-07 14:15:00",
+      "close_utc": "2026-11-07T07:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 35,
+      "close_local": "2026-11-07 14:30:00",
+      "close_utc": "2026-11-07T07:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 36,
+      "close_local": "2026-11-07 14:45:00",
+      "close_utc": "2026-11-07T07:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 37,
+      "close_local": "2026-11-07 15:00:00",
+      "close_utc": "2026-11-07T08:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 38,
+      "close_local": "2026-11-07 15:15:00",
+      "close_utc": "2026-11-07T08:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 39,
+      "close_local": "2026-11-07 15:30:00",
+      "close_utc": "2026-11-07T08:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 40,
+      "close_local": "2026-11-07 15:45:00",
+      "close_utc": "2026-11-07T08:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 41,
+      "close_local": "2026-11-07 16:00:00",
+      "close_utc": "2026-11-07T09:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 42,
+      "close_local": "2026-11-07 16:15:00",
+      "close_utc": "2026-11-07T09:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 43,
+      "close_local": "2026-11-07 16:30:00",
+      "close_utc": "2026-11-07T09:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 44,
+      "close_local": "2026-11-07 16:45:00",
+      "close_utc": "2026-11-07T09:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 45,
+      "close_local": "2026-11-07 17:00:00",
+      "close_utc": "2026-11-07T10:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 46,
+      "close_local": "2026-11-07 17:15:00",
+      "close_utc": "2026-11-07T10:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 47,
+      "close_local": "2026-11-07 17:30:00",
+      "close_utc": "2026-11-07T10:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 48,
+      "close_local": "2026-11-07 17:45:00",
+      "close_utc": "2026-11-07T10:45:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 49,
+      "close_local": "2026-11-07 18:00:00",
+      "close_utc": "2026-11-07T11:00:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 50,
+      "close_local": "2026-11-07 18:15:00",
+      "close_utc": "2026-11-07T11:15:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 51,
+      "close_local": "2026-11-07 18:30:00",
+      "close_utc": "2026-11-07T11:30:00Z",
+      "observed": false,
+      "derived": true
+    },
+    {
+      "round": 52,
+      "close_local": "2026-11-07 18:45:00",
+      "close_utc": "2026-11-07T11:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 53,
+      "close_local": "2026-11-07 19:00:00",
+      "close_utc": "2026-11-07T12:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 54,
+      "close_local": "2026-11-07 19:15:00",
+      "close_utc": "2026-11-07T12:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 55,
+      "close_local": "2026-11-07 19:30:00",
+      "close_utc": "2026-11-07T12:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 56,
+      "close_local": "2026-11-07 19:45:00",
+      "close_utc": "2026-11-07T12:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 57,
+      "close_local": "2026-11-07 20:00:00",
+      "close_utc": "2026-11-07T13:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 58,
+      "close_local": "2026-11-07 20:15:00",
+      "close_utc": "2026-11-07T13:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 59,
+      "close_local": "2026-11-07 20:30:00",
+      "close_utc": "2026-11-07T13:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 60,
+      "close_local": "2026-11-07 20:45:00",
+      "close_utc": "2026-11-07T13:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 61,
+      "close_local": "2026-11-07 21:00:00",
+      "close_utc": "2026-11-07T14:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 62,
+      "close_local": "2026-11-07 21:15:00",
+      "close_utc": "2026-11-07T14:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 63,
+      "close_local": "2026-11-07 21:30:00",
+      "close_utc": "2026-11-07T14:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 64,
+      "close_local": "2026-11-07 21:45:00",
+      "close_utc": "2026-11-07T14:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 65,
+      "close_local": "2026-11-07 22:00:00",
+      "close_utc": "2026-11-07T15:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 66,
+      "close_local": "2026-11-07 22:15:00",
+      "close_utc": "2026-11-07T15:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 67,
+      "close_local": "2026-11-07 22:30:00",
+      "close_utc": "2026-11-07T15:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 68,
+      "close_local": "2026-11-07 22:45:00",
+      "close_utc": "2026-11-07T15:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 69,
+      "close_local": "2026-11-07 23:00:00",
+      "close_utc": "2026-11-07T16:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 70,
+      "close_local": "2026-11-07 23:15:00",
+      "close_utc": "2026-11-07T16:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 71,
+      "close_local": "2026-11-07 23:30:00",
+      "close_utc": "2026-11-07T16:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 72,
+      "close_local": "2026-11-07 23:45:00",
+      "close_utc": "2026-11-07T16:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 73,
+      "close_local": "2026-11-08 00:00:00",
+      "close_utc": "2026-11-07T17:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 74,
+      "close_local": "2026-11-08 00:15:00",
+      "close_utc": "2026-11-07T17:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 75,
+      "close_local": "2026-11-08 00:30:00",
+      "close_utc": "2026-11-07T17:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 76,
+      "close_local": "2026-11-08 00:45:00",
+      "close_utc": "2026-11-07T17:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 77,
+      "close_local": "2026-11-08 01:00:00",
+      "close_utc": "2026-11-07T18:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 78,
+      "close_local": "2026-11-08 01:15:00",
+      "close_utc": "2026-11-07T18:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 79,
+      "close_local": "2026-11-08 01:30:00",
+      "close_utc": "2026-11-07T18:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 80,
+      "close_local": "2026-11-08 01:45:00",
+      "close_utc": "2026-11-07T18:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 81,
+      "close_local": "2026-11-08 02:00:00",
+      "close_utc": "2026-11-07T19:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 82,
+      "close_local": "2026-11-08 02:15:00",
+      "close_utc": "2026-11-07T19:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 83,
+      "close_local": "2026-11-08 02:30:00",
+      "close_utc": "2026-11-07T19:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 84,
+      "close_local": "2026-11-08 02:45:00",
+      "close_utc": "2026-11-07T19:45:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 85,
+      "close_local": "2026-11-08 03:00:00",
+      "close_utc": "2026-11-07T20:00:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 86,
+      "close_local": "2026-11-08 03:15:00",
+      "close_utc": "2026-11-07T20:15:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 87,
+      "close_local": "2026-11-08 03:30:00",
+      "close_utc": "2026-11-07T20:30:00Z",
+      "observed": true,
+      "derived": false
+    },
+    {
+      "round": 88,
+      "close_local": "2026-11-08 03:45:00",
+      "close_utc": "2026-11-07T20:45:00Z",
+      "observed": true,
+      "derived": false
+    }
+  ],
+  "note": "Rounds 52-88 were directly observed. Rounds 1-51 are derived by subtracting 15 minutes and are consistent with the published rules; published results 1-53 corroborate the schedule."
+}

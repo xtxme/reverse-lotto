@@ -1,0 +1,8 @@
+round,period_id,final_n,partial_n_at_close,partial_sum,partial_row16,partial_result_if_ended,final_sum,final_row16,final_result,partial_top3_if_ended,partial_bottom2_if_ended,final_top3,final_bottom2,future_count,future_sum,future_sum_mod100k,partial_sum_mod100k,final_sum_mod100k,row16_same,partial_top3_match,partial_bottom2_match
+53,229,173,2,97339,,,9281577,80308,9201269,,,269,01,171,9184238,84238,97339,81577,False,False,False
+54,230,164,1,77978,,,7724164,62839,7661325,,,325,61,163,7646186,46186,77978,24164,False,False,False
+55,231,151,5,188748,,,7422657,58470,7364187,,,187,64,146,7233909,33909,88748,22657,False,False,False
+56,232,146,1,12611,,,7048806,16319,7032487,,,487,32,145,7036195,36195,12611,48806,False,False,False
+57,233,145,2,92415,,,7919773,28924,7890849,,,849,90,143,7827358,27358,92415,19773,False,False,False
+58,234,150,1,10244,,,7639021,89293,7549728,,,728,49,149,7628777,28777,10244,39021,False,False,False
+59,235,168,0,0,,,8166608,20192,8146416,,,416,46,168,8166608,66608,0,66608,False,False,False

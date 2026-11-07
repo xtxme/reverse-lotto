@@ -1,0 +1,14 @@
+timestamp_local,page,request,method,interval_from_page_load_ms,observed,note
+2026-11-07 20:57:41.000,/member/lottery/yeekee/236,server HTML,GET,-,detail result present (7650001),round 60 detail result
+2026-11-07 21:00:56.000,/member/lottery/yeekee,server HTML,GET,-,list count 60 / last result round 60,grid added round 60 at the 21:00 boundary
+2026-11-07 21:03:28.278,/member/lottery/yeekee/238,GET /member/lottery/yeekee-list-number?id=238&limit=19&offset=0,GET,0,initial list fetch,page-load XHR
+2026-11-07 21:03:28.278,/member/lottery/yeekee/238,GET /member/lottery/yeekee-chart?id=238&limit=19&offset=0,GET,0,initial chart fetch,not repeated
+2026-11-07 21:04:28.269,/member/lottery/yeekee/238,GET /member/lottery/yeekee-list-number?id=238&limit=19&offset=0,GET,59991,60-second poll,matches setInterval 60000
+2026-11-07 21:05:28.269,/member/lottery/yeekee/238,GET /member/lottery/yeekee-list-number?id=238&limit=19&offset=0,GET,119991,second 60-second poll,periodic
+2026-11-07 21:06:25.541,/member/lottery/yeekee,(none),-,-,no XHR over 70 s,list page does not poll
+2026-11-07 21:16:23.878,/member/lottery/yeekee,server HTML,GET,-,list count 61 / last result round 61,grid added round 61 at the 21:15 boundary
+2026-11-07 21:17:16.935,/member/lottery/yeekee/238,server HTML,GET,-,detail result present (8621920),result available <=16 s after shoot close
+2026-11-07 21:21:00.222,/member/lottery/yeekee,server HTML,GET,-,list count 61 / last result round 61,round 62 detail result not yet in grid
+2026-11-07 21:21:40.117,/member/lottery/yeekee/228,(none),-,-,no XHR over 70 s,result page does not poll
+2026-11-07 21:23:17.304,/member/lottery/yeekee,server HTML,GET,-,list count 61 / last result round 61,lag > 6 min
+2026-11-07 21:30:28.547,/member/lottery/yeekee,server HTML,GET,-,list count 62 / last result round 62,grid added round 62 at the 21:30 boundary; detail result was 21:17:16

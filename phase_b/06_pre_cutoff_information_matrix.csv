@@ -1,0 +1,23 @@
+variable,source,observed_timestamp,timestamp_origin,visible_before_close,changeable_after_close,measured_or_inferred,freshness_uncertainty,evidence_id,legitimate_precutoff_test,reason
+round_number,round grid / page title,page load,server schedule,yes,no,measured,exact,PB-SCHED-01,yes,Time feature known in advance
+close_date,server betconfig,page load,server,yes,no,measured,exact,PB-META-01,yes,Schedule feature known in advance
+shoot_close,server betconfig + client constant,page load,server+client,yes,no,measured,exact,PB-META-01,yes,Schedule feature known in advance
+server_time,inline serDateTime / HTTP Date,page load,server,yes,changes,measured,+/-1 s,PB-CLOCK-01,yes,Clock feature known at cutoff
+current_round_grid,round grid,page load,server,yes,no,measured,15-minute grid,PB-SCHED-01,yes,Only a time feature; no outcome information
+pool_rows_before_close,list endpoint / round page,runtime fetch,server created_at,yes (partial),yes (grows),measured,seconds,PB-TIME-01,yes,Partial pool; must not be treated as final
+partial_sum,list endpoint / round page,runtime fetch,server,yes (partial),yes (grows),measured,seconds,PB-TIME-01,yes,Partial sum; explicitly not final
+partial_row16,round page only if >=16 rows,runtime fetch,server,rare/no at cutoff,yes,measured,seconds,PB-TIME-01,no,Undefined when fewer than 16 rows exist at cutoff
+is_open flag,server betconfig,page load,server,yes,no,measured,seconds,PB-META-02,no,Stayed 1 after close; not a live cut-off indicator
+result_state,server betconfig,page load,server,yes,changes,measured,seconds,PB-META-02,no,Processing state; not an outcome input
+final_pool,round page after shoot close,close+2m,server,no,no (fixed),measured,seconds,PB-TIME-01,no,Post-cutoff information
+final_sum,round page after shoot close,close+2m,server,no,no (fixed),measured,seconds,PB-TIME-01,no,Post-cutoff information
+final_row16,round page after shoot close,close+2m,server,no,no (fixed),measured,seconds,PB-TIME-01,no,Post-cutoff information
+result_raw,round page after processing,close+2m+processing,server,no,no (fixed),measured,seconds,PB-TIME-01,no,Post-cutoff information
+top3,round page after processing,close+2m+processing,server,no,no (fixed),measured,seconds,PB-TIME-01,no,Post-cutoff information
+bottom2,round page after processing,close+2m+processing,server,no,no (fixed),measured,seconds,PB-TIME-01,no,Post-cutoff information
+per_second_burst_pattern,historical round pages,historical,server timestamps,yes (historical),no,measured,seconds,PB-BURST-01,yes (historical only),Can be used as a historical covariate but not as a future outcome
+duplicate_number_frequency,historical round pages,historical,server,yes (historical),no,measured,seconds,PB-DUP-01,yes (historical only),Can test submission behavior; not a result predictor
+masked_username,round page,historical/current,server,yes,no,measured,seconds,PB-USER-01,no,Not needed and privacy-sensitive
+list_page_result_count,round grid,page load,server,yes but stale,changes,measured,minutes,PB-POLL-01,no,Stale display state; not an unpublished result
+pusher_agent_notification,inline client script,event time,server event,yes,no,measured,ms,PB-POLL-02,no,Agent notification only; unrelated to rounds
+detail_60s_poll,client timer,every 60 s,server data,yes,partial,measured,60 s,PB-POLL-03,no,Stale copy of the list/sum; not a new input

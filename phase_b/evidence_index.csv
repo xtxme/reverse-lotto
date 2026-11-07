@@ -1,0 +1,24 @@
+id,artifact,description,classification,confidence
+PB-AUDIT-01,evidence/phase_a_randomness_reproduction.txt,"Exact re-run of Phase A randomness tests",OBSERVED,High
+PB-AUDIT-02,monte_carlo_reproduction.py,"RNG-replay reproduction and 64-config sensitivity",OBSERVED,High
+PB-SCHED-01,submission_timeline.csv; evidence/round_summary.csv,"7-round schedule, close times, per-round counts",OBSERVED,High
+PB-TIME-01,evidence/submission_events.csv,"1,097 sanitized rows: round, seq, number, timestamp, offset, bucket",OBSERVED,High
+PB-TIME-02,evidence/timing_observations.json,"Phase A publication bracket for round 55",OBSERVED,High
+PB-CLOSE-01,evidence/raw_rounds/*.json; server betconfig,"close_date and closeDateYeekee = close + 2 min",OBSERVED,High
+PB-SUM-01,evidence/round_summary.csv,"sum, row16, result, top3, bottom2 for 7 rounds",OBSERVED,High
+PB-FORMULA-01,../evidence/reproducible_tests/verify_formula.py,"Exact formula verification for rounds 53/54",OBSERVED,High
+PB-BURST-01,evidence/per_second.csv; timestamp_collisions.csv,"Per-second counts and collision pairs",OBSERVED,High
+PB-BURST-02,evidence/burst_user_overlap.json,"Top-burst user/number overlap",OBSERVED,High
+PB-USER-01,evidence/user_concentration.json,"Aggregate same-user/mixed/different duplicate groups",OBSERVED,High
+PB-DUP-01,duplicate_model_comparison.csv,"Observed vs five null models",OBSERVED,High
+PB-DUP-02,evidence/number_frequency.csv,"Per-number counts across 7 rounds",OBSERVED,High
+PB-DUP-03,evidence/cross_round_overlap.csv,"Pairwise overlap vs uniform expectation",OBSERVED,Medium
+PB-POLL-01,frontend_timers.csv,"Static timer inventory",OBSERVED,High
+PB-POLL-02,runtime_network_timeline.csv,"Runtime 60 s poll and no-poll pages",OBSERVED,High
+PB-POLL-03,04_polling_and_frontend_runtime.md,"Resolution of the Codex/OpenCode contradiction",OBSERVED,High
+PB-GRID-01,runtime_network_timeline.csv,"Grid updates at 21:00/21:15/21:30 boundaries",OBSERVED,Medium-High
+PB-MC-01,simulation_comparison.csv,"64-configuration Monte Carlo sensitivity",OBSERVED,High
+PB-MC-02,evidence/mc_pvalue_distribution.csv,"100-seed p-value distribution",OBSERVED,High
+PB-PRECUT-01,evidence/partial_vs_final.csv,"Partial pool at cutoff vs final outcome",OBSERVED,High
+PB-PRECUT-02,evidence/precutoff_predictive_stats.json,"Correlations and LOO prediction errors",OBSERVED,Medium (n=7)
+PB-INFO-01,06_pre_cutoff_information_matrix.csv,"Information availability matrix",INFERRED,Medium-High

@@ -1,0 +1,5 @@
+pattern,observed,uniform_expected,ratio
+all_five_same,23,0.11,209.7
+exactly_four_same,9,4.936,1.8
+palindrome,46,1.097,41.9
+at_least_one_repeated_digit,795,765.267,1.04

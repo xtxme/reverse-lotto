@@ -1,0 +1,240 @@
+{
+  "229": {
+    "n": 173,
+    "distinct_users": 97,
+    "max_rows_per_user": 8,
+    "users_with_2plus_rows": 55,
+    "duplicate_groups": 7,
+    "duplicate_class": {
+      "allSame": 6,
+      "mixed": 0,
+      "allDiff": 1,
+      "rowsSame": 14,
+      "rowsTotal": 16
+    },
+    "burst_timestamps": 12,
+    "burst_class": {
+      "allSame": 0,
+      "mixed": 0,
+      "allDiff": 12,
+      "rowsSame": 0,
+      "rowsTotal": 141
+    },
+    "top_burst": {
+      "ts": "07/11/2569 19:01:43",
+      "count": 51,
+      "distinct_users": 51,
+      "max_per_user": 1
+    },
+    "top_duplicate": {
+      "num": "37553",
+      "freq": 3,
+      "distinct_users": 1,
+      "max_per_user": 3
+    }
+  },
+  "230": {
+    "n": 164,
+    "distinct_users": 98,
+    "max_rows_per_user": 7,
+    "users_with_2plus_rows": 53,
+    "duplicate_groups": 9,
+    "duplicate_class": {
+      "allSame": 7,
+      "mixed": 1,
+      "allDiff": 1,
+      "rowsSame": 17,
+      "rowsTotal": 22
+    },
+    "burst_timestamps": 10,
+    "burst_class": {
+      "allSame": 0,
+      "mixed": 0,
+      "allDiff": 10,
+      "rowsSame": 0,
+      "rowsTotal": 138
+    },
+    "top_burst": {
+      "ts": "07/11/2569 19:16:43",
+      "count": 49,
+      "distinct_users": 49,
+      "max_per_user": 1
+    },
+    "top_duplicate": {
+      "num": "37553",
+      "freq": 4,
+      "distinct_users": 1,
+      "max_per_user": 4
+    }
+  },
+  "231": {
+    "n": 151,
+    "distinct_users": 93,
+    "max_rows_per_user": 6,
+    "users_with_2plus_rows": 50,
+    "duplicate_groups": 5,
+    "duplicate_class": {
+      "allSame": 5,
+      "mixed": 0,
+      "allDiff": 0,
+      "rowsSame": 10,
+      "rowsTotal": 10
+    },
+    "burst_timestamps": 11,
+    "burst_class": {
+      "allSame": 0,
+      "mixed": 0,
+      "allDiff": 11,
+      "rowsSame": 0,
+      "rowsTotal": 139
+    },
+    "top_burst": {
+      "ts": "07/11/2569 19:31:59",
+      "count": 51,
+      "distinct_users": 51,
+      "max_per_user": 1
+    },
+    "top_duplicate": {
+      "num": "43953",
+      "freq": 2,
+      "distinct_users": 1,
+      "max_per_user": 2
+    }
+  },
+  "232": {
+    "n": 146,
+    "distinct_users": 96,
+    "max_rows_per_user": 5,
+    "users_with_2plus_rows": 44,
+    "duplicate_groups": 3,
+    "duplicate_class": {
+      "allSame": 2,
+      "mixed": 1,
+      "allDiff": 0,
+      "rowsSame": 4,
+      "rowsTotal": 7
+    },
+    "burst_timestamps": 9,
+    "burst_class": {
+      "allSame": 0,
+      "mixed": 0,
+      "allDiff": 9,
+      "rowsSame": 0,
+      "rowsTotal": 128
+    },
+    "top_burst": {
+      "ts": "07/11/2569 19:46:43",
+      "count": 53,
+      "distinct_users": 53,
+      "max_per_user": 1
+    },
+    "top_duplicate": {
+      "num": "66666",
+      "freq": 3,
+      "distinct_users": 2,
+      "max_per_user": 2
+    }
+  },
+  "233": {
+    "n": 145,
+    "distinct_users": 104,
+    "max_rows_per_user": 4,
+    "users_with_2plus_rows": 38,
+    "duplicate_groups": 3,
+    "duplicate_class": {
+      "allSame": 2,
+      "mixed": 0,
+      "allDiff": 1,
+      "rowsSame": 4,
+      "rowsTotal": 6
+    },
+    "burst_timestamps": 11,
+    "burst_class": {
+      "allSame": 0,
+      "mixed": 0,
+      "allDiff": 11,
+      "rowsSame": 0,
+      "rowsTotal": 133
+    },
+    "top_burst": {
+      "ts": "07/11/2569 20:01:43",
+      "count": 49,
+      "distinct_users": 49,
+      "max_per_user": 1
+    },
+    "top_duplicate": {
+      "num": "31317",
+      "freq": 2,
+      "distinct_users": 1,
+      "max_per_user": 2
+    }
+  },
+  "234": {
+    "n": 150,
+    "distinct_users": 96,
+    "max_rows_per_user": 3,
+    "users_with_2plus_rows": 52,
+    "duplicate_groups": 9,
+    "duplicate_class": {
+      "allSame": 9,
+      "mixed": 0,
+      "allDiff": 0,
+      "rowsSame": 18,
+      "rowsTotal": 18
+    },
+    "burst_timestamps": 11,
+    "burst_class": {
+      "allSame": 0,
+      "mixed": 0,
+      "allDiff": 11,
+      "rowsSame": 0,
+      "rowsTotal": 140
+    },
+    "top_burst": {
+      "ts": "07/11/2569 20:16:43",
+      "count": 50,
+      "distinct_users": 50,
+      "max_per_user": 1
+    },
+    "top_duplicate": {
+      "num": "26724",
+      "freq": 2,
+      "distinct_users": 1,
+      "max_per_user": 2
+    }
+  },
+  "235": {
+    "n": 168,
+    "distinct_users": 92,
+    "max_rows_per_user": 5,
+    "users_with_2plus_rows": 68,
+    "duplicate_groups": 8,
+    "duplicate_class": {
+      "allSame": 8,
+      "mixed": 0,
+      "allDiff": 0,
+      "rowsSame": 17,
+      "rowsTotal": 17
+    },
+    "burst_timestamps": 10,
+    "burst_class": {
+      "allSame": 0,
+      "mixed": 1,
+      "allDiff": 9,
+      "rowsSame": 0,
+      "rowsTotal": 155
+    },
+    "top_burst": {
+      "ts": "07/11/2569 20:31:59",
+      "count": 65,
+      "distinct_users": 64,
+      "max_per_user": 2
+    },
+    "top_duplicate": {
+      "num": "55359",
+      "freq": 3,
+      "distinct_users": 1,
+      "max_per_user": 3
+    }
+  }
+}
