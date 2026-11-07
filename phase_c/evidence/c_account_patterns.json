@@ -1,0 +1,535 @@
+{
+  "rounds": 16,
+  "events": 2474,
+  "distinct_masked_hashes": 469,
+  "hashes_in_2plus_rounds": 286,
+  "recurrence_histogram": {
+    "1": 183,
+    "2": 68,
+    "3": 55,
+    "4": 51,
+    "5": 21,
+    "6": 26,
+    "7": 22,
+    "8": 15,
+    "9": 9,
+    "10": 7,
+    "11": 2,
+    "12": 4,
+    "13": 2,
+    "14": 1,
+    "15": 1,
+    "16": 2
+  },
+  "same_user_number_in_2plus_rounds": 19,
+  "duplicate_groups": 104,
+  "same_user_groups": 94,
+  "mixed_groups": 4,
+  "all_different_groups": 6,
+  "all_same_second_groups": 0,
+  "colliding_pairs": 138,
+  "same_second_pairs": 3,
+  "per_round": [
+    {
+      "round": 53,
+      "n": 173,
+      "distinct_masked_hashes": 97,
+      "users_with_2plus_rows": 55,
+      "max_rows_per_masked_hash": 8,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 54,
+      "n": 164,
+      "distinct_masked_hashes": 98,
+      "users_with_2plus_rows": 53,
+      "max_rows_per_masked_hash": 7,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 55,
+      "n": 151,
+      "distinct_masked_hashes": 93,
+      "users_with_2plus_rows": 50,
+      "max_rows_per_masked_hash": 6,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 56,
+      "n": 146,
+      "distinct_masked_hashes": 96,
+      "users_with_2plus_rows": 44,
+      "max_rows_per_masked_hash": 5,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 57,
+      "n": 145,
+      "distinct_masked_hashes": 104,
+      "users_with_2plus_rows": 38,
+      "max_rows_per_masked_hash": 4,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 58,
+      "n": 150,
+      "distinct_masked_hashes": 96,
+      "users_with_2plus_rows": 52,
+      "max_rows_per_masked_hash": 3,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 59,
+      "n": 168,
+      "distinct_masked_hashes": 92,
+      "users_with_2plus_rows": 68,
+      "max_rows_per_masked_hash": 5,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 60,
+      "n": 141,
+      "distinct_masked_hashes": 88,
+      "users_with_2plus_rows": 41,
+      "max_rows_per_masked_hash": 7,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 61,
+      "n": 169,
+      "distinct_masked_hashes": 102,
+      "users_with_2plus_rows": 60,
+      "max_rows_per_masked_hash": 7,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 62,
+      "n": 171,
+      "distinct_masked_hashes": 97,
+      "users_with_2plus_rows": 57,
+      "max_rows_per_masked_hash": 16,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 63,
+      "n": 156,
+      "distinct_masked_hashes": 100,
+      "users_with_2plus_rows": 48,
+      "max_rows_per_masked_hash": 5,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 64,
+      "n": 177,
+      "distinct_masked_hashes": 102,
+      "users_with_2plus_rows": 67,
+      "max_rows_per_masked_hash": 4,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 65,
+      "n": 148,
+      "distinct_masked_hashes": 88,
+      "users_with_2plus_rows": 58,
+      "max_rows_per_masked_hash": 3,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 66,
+      "n": 140,
+      "distinct_masked_hashes": 95,
+      "users_with_2plus_rows": 45,
+      "max_rows_per_masked_hash": 2,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 67,
+      "n": 132,
+      "distinct_masked_hashes": 90,
+      "users_with_2plus_rows": 41,
+      "max_rows_per_masked_hash": 3,
+      "rows_without_hash": 0
+    },
+    {
+      "round": 68,
+      "n": 143,
+      "distinct_masked_hashes": 93,
+      "users_with_2plus_rows": 48,
+      "max_rows_per_masked_hash": 4,
+      "rows_without_hash": 0
+    }
+  ],
+  "duplicates": [
+    {
+      "round": 53,
+      "duplicate_groups": 7,
+      "same_user": 6,
+      "mixed": 0,
+      "all_different": 1,
+      "all_same_second": 0,
+      "duplicate_entries": 9,
+      "colliding_pairs": 11
+    },
+    {
+      "round": 54,
+      "duplicate_groups": 9,
+      "same_user": 7,
+      "mixed": 1,
+      "all_different": 1,
+      "all_same_second": 0,
+      "duplicate_entries": 13,
+      "colliding_pairs": 18
+    },
+    {
+      "round": 55,
+      "duplicate_groups": 5,
+      "same_user": 5,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 5,
+      "colliding_pairs": 5
+    },
+    {
+      "round": 56,
+      "duplicate_groups": 3,
+      "same_user": 2,
+      "mixed": 1,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 4,
+      "colliding_pairs": 5
+    },
+    {
+      "round": 57,
+      "duplicate_groups": 3,
+      "same_user": 2,
+      "mixed": 0,
+      "all_different": 1,
+      "all_same_second": 0,
+      "duplicate_entries": 3,
+      "colliding_pairs": 3
+    },
+    {
+      "round": 58,
+      "duplicate_groups": 9,
+      "same_user": 9,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 9,
+      "colliding_pairs": 9
+    },
+    {
+      "round": 59,
+      "duplicate_groups": 8,
+      "same_user": 8,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 9,
+      "colliding_pairs": 10
+    },
+    {
+      "round": 60,
+      "duplicate_groups": 7,
+      "same_user": 6,
+      "mixed": 0,
+      "all_different": 1,
+      "all_same_second": 0,
+      "duplicate_entries": 7,
+      "colliding_pairs": 7
+    },
+    {
+      "round": 61,
+      "duplicate_groups": 8,
+      "same_user": 7,
+      "mixed": 0,
+      "all_different": 1,
+      "all_same_second": 0,
+      "duplicate_entries": 10,
+      "colliding_pairs": 13
+    },
+    {
+      "round": 62,
+      "duplicate_groups": 5,
+      "same_user": 5,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 6,
+      "colliding_pairs": 7
+    },
+    {
+      "round": 63,
+      "duplicate_groups": 9,
+      "same_user": 8,
+      "mixed": 1,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 11,
+      "colliding_pairs": 13
+    },
+    {
+      "round": 64,
+      "duplicate_groups": 12,
+      "same_user": 10,
+      "mixed": 1,
+      "all_different": 1,
+      "all_same_second": 0,
+      "duplicate_entries": 14,
+      "colliding_pairs": 16
+    },
+    {
+      "round": 65,
+      "duplicate_groups": 1,
+      "same_user": 1,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 1,
+      "colliding_pairs": 1
+    },
+    {
+      "round": 66,
+      "duplicate_groups": 6,
+      "same_user": 6,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 6,
+      "colliding_pairs": 6
+    },
+    {
+      "round": 67,
+      "duplicate_groups": 5,
+      "same_user": 5,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 5,
+      "colliding_pairs": 5
+    },
+    {
+      "round": 68,
+      "duplicate_groups": 7,
+      "same_user": 7,
+      "mixed": 0,
+      "all_different": 0,
+      "all_same_second": 0,
+      "duplicate_entries": 8,
+      "colliding_pairs": 9
+    }
+  ],
+  "bursts": [
+    {
+      "round": 53,
+      "b103_rows": 51,
+      "b103_users": 51,
+      "b103_unique_numbers": 51,
+      "b119_rows": 47,
+      "b119_users": 47,
+      "b119_unique_numbers": 47,
+      "user_intersection": 27,
+      "user_union": 71,
+      "user_jaccard": 0.38,
+      "number_intersection": 0
+    },
+    {
+      "round": 54,
+      "b103_rows": 49,
+      "b103_users": 49,
+      "b103_unique_numbers": 49,
+      "b119_rows": 48,
+      "b119_users": 48,
+      "b119_unique_numbers": 47,
+      "user_intersection": 24,
+      "user_union": 73,
+      "user_jaccard": 0.329,
+      "number_intersection": 1
+    },
+    {
+      "round": 55,
+      "b103_rows": 49,
+      "b103_users": 49,
+      "b103_unique_numbers": 49,
+      "b119_rows": 51,
+      "b119_users": 51,
+      "b119_unique_numbers": 51,
+      "user_intersection": 24,
+      "user_union": 76,
+      "user_jaccard": 0.316,
+      "number_intersection": 0
+    },
+    {
+      "round": 56,
+      "b103_rows": 53,
+      "b103_users": 53,
+      "b103_unique_numbers": 53,
+      "b119_rows": 42,
+      "b119_users": 42,
+      "b119_unique_numbers": 42,
+      "user_intersection": 19,
+      "user_union": 76,
+      "user_jaccard": 0.25,
+      "number_intersection": 0
+    },
+    {
+      "round": 57,
+      "b103_rows": 49,
+      "b103_users": 49,
+      "b103_unique_numbers": 49,
+      "b119_rows": 38,
+      "b119_users": 38,
+      "b119_unique_numbers": 38,
+      "user_intersection": 12,
+      "user_union": 75,
+      "user_jaccard": 0.16,
+      "number_intersection": 0
+    },
+    {
+      "round": 58,
+      "b103_rows": 50,
+      "b103_users": 50,
+      "b103_unique_numbers": 50,
+      "b119_rows": 49,
+      "b119_users": 49,
+      "b119_unique_numbers": 49,
+      "user_intersection": 21,
+      "user_union": 78,
+      "user_jaccard": 0.269,
+      "number_intersection": 0
+    },
+    {
+      "round": 59,
+      "b103_rows": 51,
+      "b103_users": 51,
+      "b103_unique_numbers": 51,
+      "b119_rows": 65,
+      "b119_users": 64,
+      "b119_unique_numbers": 64,
+      "user_intersection": 41,
+      "user_union": 74,
+      "user_jaccard": 0.554,
+      "number_intersection": 1
+    },
+    {
+      "round": 60,
+      "b103_rows": 48,
+      "b103_users": 48,
+      "b103_unique_numbers": 48,
+      "b119_rows": 39,
+      "b119_users": 39,
+      "b119_unique_numbers": 39,
+      "user_intersection": 21,
+      "user_union": 66,
+      "user_jaccard": 0.318,
+      "number_intersection": 0
+    },
+    {
+      "round": 61,
+      "b103_rows": 48,
+      "b103_users": 48,
+      "b103_unique_numbers": 48,
+      "b119_rows": 50,
+      "b119_users": 50,
+      "b119_unique_numbers": 50,
+      "user_intersection": 25,
+      "user_union": 73,
+      "user_jaccard": 0.342,
+      "number_intersection": 0
+    },
+    {
+      "round": 62,
+      "b103_rows": 52,
+      "b103_users": 52,
+      "b103_unique_numbers": 52,
+      "b119_rows": 54,
+      "b119_users": 54,
+      "b119_unique_numbers": 54,
+      "user_intersection": 28,
+      "user_union": 78,
+      "user_jaccard": 0.359,
+      "number_intersection": 2
+    },
+    {
+      "round": 63,
+      "b103_rows": 48,
+      "b103_users": 48,
+      "b103_unique_numbers": 48,
+      "b119_rows": 42,
+      "b119_users": 42,
+      "b119_unique_numbers": 42,
+      "user_intersection": 15,
+      "user_union": 75,
+      "user_jaccard": 0.2,
+      "number_intersection": 0
+    },
+    {
+      "round": 64,
+      "b103_rows": 50,
+      "b103_users": 50,
+      "b103_unique_numbers": 50,
+      "b119_rows": 54,
+      "b119_users": 53,
+      "b119_unique_numbers": 53,
+      "user_intersection": 28,
+      "user_union": 75,
+      "user_jaccard": 0.373,
+      "number_intersection": 0
+    },
+    {
+      "round": 65,
+      "b103_rows": 41,
+      "b103_users": 41,
+      "b103_unique_numbers": 41,
+      "b119_rows": 52,
+      "b119_users": 52,
+      "b119_unique_numbers": 52,
+      "user_intersection": 26,
+      "user_union": 67,
+      "user_jaccard": 0.388,
+      "number_intersection": 0
+    },
+    {
+      "round": 66,
+      "b103_rows": 47,
+      "b103_users": 47,
+      "b103_unique_numbers": 47,
+      "b119_rows": 40,
+      "b119_users": 40,
+      "b119_unique_numbers": 40,
+      "user_intersection": 17,
+      "user_union": 70,
+      "user_jaccard": 0.243,
+      "number_intersection": 0
+    },
+    {
+      "round": 67,
+      "b103_rows": 48,
+      "b103_users": 48,
+      "b103_unique_numbers": 48,
+      "b119_rows": 34,
+      "b119_users": 34,
+      "b119_unique_numbers": 34,
+      "user_intersection": 14,
+      "user_union": 68,
+      "user_jaccard": 0.206,
+      "number_intersection": 0
+    },
+    {
+      "round": 68,
+      "b103_rows": 43,
+      "b103_users": 43,
+      "b103_unique_numbers": 43,
+      "b119_rows": 44,
+      "b119_users": 44,
+      "b119_unique_numbers": 44,
+      "user_intersection": 15,
+      "user_union": 72,
+      "user_jaccard": 0.208,
+      "number_intersection": 0
+    }
+  ],
+  "note": "user_hash is a truncated SHA-256 of the site-masked display name with the fixed prefix 'phase_c:'. It is a display identifier, not a verified natural person. Two accounts that render the same mask are indistinguishable."
+}
