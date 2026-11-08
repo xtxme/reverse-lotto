@@ -1,0 +1,3 @@
+# Private inputs for reproduction
+Raw LINE and sender names are intentionally excluded. Set LINE_EXPORT_PATH to the private raw file, LINE_SENDERS_FILE to a private UTF-8 JSON array of exact sender display names, and WORK_B_INPUT_DIR to the original starter directory. Keep all of these outside version control. SITE_CAPTURE_DIR is optional; missing captures must remain unverified.
+Public files are privacy-filtered publication copies. The 38-file byte-identical replay in VALIDATION.json refers to the local analytical originals before publication filtering; public-source adaptation is separately checked by PUBLICATION_VALIDATION.json.

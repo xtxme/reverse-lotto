@@ -1,0 +1,671 @@
+{
+  "file": "[LINE]PRIVATE_LINE_GROUP(10).txt",
+  "line_count": 233724,
+  "first_date": "2026-08-13 22:00:00",
+  "last_date": "2026-11-07 14:45:00",
+  "result_post_count": 7469,
+  "unique_rounds_by_close": 7469,
+  "conflicting_posted_rounds": 0,
+  "first_conflicts": [],
+  "contiguous_pairs": 7352,
+  "forecast_message_count": 886,
+  "forecast_dates": 85,
+  "all_result_days": 87,
+  "test_results": [
+    {
+      "label": "Photo1: next bottom 2 after bottom double",
+      "triggers": 730,
+      "hits": 49,
+      "hit_rate": 0.0671,
+      "target_count": 7,
+      "uniform_baseline": 0.07,
+      "empirical_baseline": 0.0713,
+      "binomial_upper_uniform": 0.640248,
+      "first10": [
+        {
+          "date": "2026-08-13T23:45:00",
+          "before": "88",
+          "after": "91",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T07:15:00",
+          "before": "77",
+          "after": "54",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T08:00:00",
+          "before": "00",
+          "after": "20",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T14:30:00",
+          "before": "44",
+          "after": "49",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T17:30:00",
+          "before": "00",
+          "after": "46",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T18:00:00",
+          "before": "99",
+          "after": "21",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T19:00:00",
+          "before": "11",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T19:15:00",
+          "before": "11",
+          "after": "82",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T20:15:00",
+          "before": "99",
+          "after": "43",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T22:00:00",
+          "before": "55",
+          "after": "63",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo1: next top last2 after bottom double",
+      "triggers": 730,
+      "hits": 49,
+      "hit_rate": 0.0671,
+      "target_count": 7,
+      "uniform_baseline": 0.07,
+      "empirical_baseline": 0.0666,
+      "binomial_upper_uniform": 0.640248,
+      "first10": [
+        {
+          "date": "2026-08-13T23:45:00",
+          "before": "88",
+          "after": "91",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T07:15:00",
+          "before": "77",
+          "after": "54",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T08:00:00",
+          "before": "00",
+          "after": "20",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T14:30:00",
+          "before": "44",
+          "after": "49",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T17:30:00",
+          "before": "00",
+          "after": "46",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T18:00:00",
+          "before": "99",
+          "after": "21",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T19:00:00",
+          "before": "11",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T19:15:00",
+          "before": "11",
+          "after": "82",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T20:15:00",
+          "before": "99",
+          "after": "43",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T22:00:00",
+          "before": "55",
+          "after": "63",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo2: next bottom2 after 69",
+      "triggers": 75,
+      "hits": 5,
+      "hit_rate": 0.0667,
+      "target_count": 9,
+      "uniform_baseline": 0.09,
+      "empirical_baseline": 0.0909,
+      "binomial_upper_uniform": 0.81596,
+      "first10": [
+        {
+          "date": "2026-08-15T06:15:00",
+          "before": "69",
+          "after": "88",
+          "hit": false
+        },
+        {
+          "date": "2026-08-18T08:30:00",
+          "before": "69",
+          "after": "41",
+          "hit": false
+        },
+        {
+          "date": "2026-08-19T14:00:00",
+          "before": "69",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-21T02:00:00",
+          "before": "69",
+          "after": "72",
+          "hit": false
+        },
+        {
+          "date": "2026-08-23T08:30:00",
+          "before": "69",
+          "after": "90",
+          "hit": false
+        },
+        {
+          "date": "2026-08-23T15:45:00",
+          "before": "69",
+          "after": "33",
+          "hit": false
+        },
+        {
+          "date": "2026-08-27T14:45:00",
+          "before": "69",
+          "after": "60",
+          "hit": false
+        },
+        {
+          "date": "2026-08-28T03:30:00",
+          "before": "69",
+          "after": "39",
+          "hit": false
+        },
+        {
+          "date": "2026-08-29T00:00:00",
+          "before": "69",
+          "after": "64",
+          "hit": false
+        },
+        {
+          "date": "2026-08-29T03:15:00",
+          "before": "69",
+          "after": "77",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo2: next bottom2 after 65",
+      "triggers": 78,
+      "hits": 7,
+      "hit_rate": 0.0897,
+      "target_count": 9,
+      "uniform_baseline": 0.09,
+      "empirical_baseline": 0.0909,
+      "binomial_upper_uniform": 0.560454,
+      "first10": [
+        {
+          "date": "2026-08-14T06:15:00",
+          "before": "65",
+          "after": "68",
+          "hit": true
+        },
+        {
+          "date": "2026-08-17T01:45:00",
+          "before": "65",
+          "after": "72",
+          "hit": false
+        },
+        {
+          "date": "2026-08-18T20:15:00",
+          "before": "65",
+          "after": "60",
+          "hit": false
+        },
+        {
+          "date": "2026-08-19T21:45:00",
+          "before": "65",
+          "after": "97",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T06:45:00",
+          "before": "65",
+          "after": "50",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T10:00:00",
+          "before": "65",
+          "after": "81",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T15:30:00",
+          "before": "65",
+          "after": "51",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T19:15:00",
+          "before": "65",
+          "after": "82",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T21:30:00",
+          "before": "65",
+          "after": "04",
+          "hit": false
+        },
+        {
+          "date": "2026-08-21T03:30:00",
+          "before": "65",
+          "after": "67",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo2: next bottom2 after 69 OR 65",
+      "triggers": 153,
+      "hits": 12,
+      "hit_rate": 0.0784,
+      "target_count": 9,
+      "uniform_baseline": 0.09,
+      "empirical_baseline": 0.0909,
+      "binomial_upper_uniform": 0.731687,
+      "first10": [
+        {
+          "date": "2026-08-14T06:15:00",
+          "before": "65",
+          "after": "68",
+          "hit": true
+        },
+        {
+          "date": "2026-08-15T06:15:00",
+          "before": "69",
+          "after": "88",
+          "hit": false
+        },
+        {
+          "date": "2026-08-17T01:45:00",
+          "before": "65",
+          "after": "72",
+          "hit": false
+        },
+        {
+          "date": "2026-08-18T08:30:00",
+          "before": "69",
+          "after": "41",
+          "hit": false
+        },
+        {
+          "date": "2026-08-18T20:15:00",
+          "before": "65",
+          "after": "60",
+          "hit": false
+        },
+        {
+          "date": "2026-08-19T14:00:00",
+          "before": "69",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-19T21:45:00",
+          "before": "65",
+          "after": "97",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T06:45:00",
+          "before": "65",
+          "after": "50",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T10:00:00",
+          "before": "65",
+          "after": "81",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T15:30:00",
+          "before": "65",
+          "after": "51",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo2: next top last2 after 69",
+      "triggers": 75,
+      "hits": 8,
+      "hit_rate": 0.1067,
+      "target_count": 9,
+      "uniform_baseline": 0.09,
+      "empirical_baseline": 0.094,
+      "binomial_upper_uniform": 0.362187,
+      "first10": [
+        {
+          "date": "2026-08-15T06:15:00",
+          "before": "69",
+          "after": "88",
+          "hit": false
+        },
+        {
+          "date": "2026-08-18T08:30:00",
+          "before": "69",
+          "after": "41",
+          "hit": false
+        },
+        {
+          "date": "2026-08-19T14:00:00",
+          "before": "69",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-21T02:00:00",
+          "before": "69",
+          "after": "72",
+          "hit": false
+        },
+        {
+          "date": "2026-08-23T08:30:00",
+          "before": "69",
+          "after": "90",
+          "hit": false
+        },
+        {
+          "date": "2026-08-23T15:45:00",
+          "before": "69",
+          "after": "33",
+          "hit": false
+        },
+        {
+          "date": "2026-08-27T14:45:00",
+          "before": "69",
+          "after": "60",
+          "hit": false
+        },
+        {
+          "date": "2026-08-28T03:30:00",
+          "before": "69",
+          "after": "39",
+          "hit": true
+        },
+        {
+          "date": "2026-08-29T00:00:00",
+          "before": "69",
+          "after": "64",
+          "hit": true
+        },
+        {
+          "date": "2026-08-29T03:15:00",
+          "before": "69",
+          "after": "77",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo2: next top last2 after 69 OR 65",
+      "triggers": 153,
+      "hits": 19,
+      "hit_rate": 0.1242,
+      "target_count": 9,
+      "uniform_baseline": 0.09,
+      "empirical_baseline": 0.094,
+      "binomial_upper_uniform": 0.094706,
+      "first10": [
+        {
+          "date": "2026-08-14T06:15:00",
+          "before": "65",
+          "after": "68",
+          "hit": true
+        },
+        {
+          "date": "2026-08-15T06:15:00",
+          "before": "69",
+          "after": "88",
+          "hit": false
+        },
+        {
+          "date": "2026-08-17T01:45:00",
+          "before": "65",
+          "after": "72",
+          "hit": false
+        },
+        {
+          "date": "2026-08-18T08:30:00",
+          "before": "69",
+          "after": "41",
+          "hit": false
+        },
+        {
+          "date": "2026-08-18T20:15:00",
+          "before": "65",
+          "after": "60",
+          "hit": false
+        },
+        {
+          "date": "2026-08-19T14:00:00",
+          "before": "69",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-19T21:45:00",
+          "before": "65",
+          "after": "97",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T06:45:00",
+          "before": "65",
+          "after": "50",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T10:00:00",
+          "before": "65",
+          "after": "81",
+          "hit": false
+        },
+        {
+          "date": "2026-08-20T15:30:00",
+          "before": "65",
+          "after": "51",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo3 #8: after bottom double, next bottom contains 0 or adjacent digits",
+      "triggers": 730,
+      "hits": 240,
+      "hit_rate": 0.3288,
+      "target_count": 35,
+      "uniform_baseline": 0.35,
+      "empirical_baseline": 0.3479,
+      "binomial_upper_uniform": 0.893212,
+      "first10": [
+        {
+          "date": "2026-08-13T23:45:00",
+          "before": "88",
+          "after": "91",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T07:15:00",
+          "before": "77",
+          "after": "54",
+          "hit": true
+        },
+        {
+          "date": "2026-08-14T08:00:00",
+          "before": "00",
+          "after": "20",
+          "hit": true
+        },
+        {
+          "date": "2026-08-14T14:30:00",
+          "before": "44",
+          "after": "49",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T17:30:00",
+          "before": "00",
+          "after": "46",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T18:00:00",
+          "before": "99",
+          "after": "21",
+          "hit": true
+        },
+        {
+          "date": "2026-08-14T19:00:00",
+          "before": "11",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T19:15:00",
+          "before": "11",
+          "after": "82",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T20:15:00",
+          "before": "99",
+          "after": "43",
+          "hit": true
+        },
+        {
+          "date": "2026-08-14T22:00:00",
+          "before": "55",
+          "after": "63",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo3 #12: after bottom double, next bottom contains digit 8",
+      "triggers": 730,
+      "hits": 143,
+      "hit_rate": 0.1959,
+      "target_count": 19,
+      "uniform_baseline": 0.19,
+      "empirical_baseline": 0.2009,
+      "binomial_upper_uniform": 0.356825,
+      "first10": [
+        {
+          "date": "2026-08-13T23:45:00",
+          "before": "88",
+          "after": "91",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T07:15:00",
+          "before": "77",
+          "after": "54",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T08:00:00",
+          "before": "00",
+          "after": "20",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T14:30:00",
+          "before": "44",
+          "after": "49",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T17:30:00",
+          "before": "00",
+          "after": "46",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T18:00:00",
+          "before": "99",
+          "after": "21",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T19:00:00",
+          "before": "11",
+          "after": "11",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T19:15:00",
+          "before": "11",
+          "after": "82",
+          "hit": true
+        },
+        {
+          "date": "2026-08-14T20:15:00",
+          "before": "99",
+          "after": "43",
+          "hit": false
+        },
+        {
+          "date": "2026-08-14T22:00:00",
+          "before": "55",
+          "after": "63",
+          "hit": false
+        }
+      ]
+    },
+    {
+      "label": "Photo3 #7: top3 triple then next top contains that digit",
+      "triggers": 71,
+      "hits": 18,
+      "comment": "Alternative outcomes include exact triple repeat; requires rule definition before formal test"
+    }
+  ],
+  "quality_note": "Messages lack seconds, and screenshot rule dates/original publication times are not established. Baseline p-values are exploratory independence approximations and should not be used as conclusive tests."
+}

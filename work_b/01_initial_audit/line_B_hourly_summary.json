@@ -1,0 +1,70 @@
+{
+  "forecast_messages": 886,
+  "forecast_hour_entries": 18580,
+  "all_target_hours": 1817,
+  "evaluated_before_hour_complete_4draws": 1545,
+  "date_range": [
+    "2026-08-14 01:00:00",
+    "2026-11-07 14:00:00"
+  ],
+  "metrics": {
+    "top_hit": {
+      "hits": 1143,
+      "n": 1545,
+      "hit_rate": 0.7398058252427184,
+      "random_digit_avg_probability": 0.7159223300970873,
+      "difference_points": 2.388349514563115,
+      "rough_z": 2.139678794932242
+    },
+    "bottom_hit": {
+      "hits": 874,
+      "n": 1545,
+      "hit_rate": 0.565695792880259,
+      "random_digit_avg_probability": 0.5680906148867313,
+      "difference_points": -0.23948220064723413,
+      "rough_z": -0.19358466162084545
+    },
+    "either_hit": {
+      "hits": 1382,
+      "n": 1545,
+      "hit_rate": 0.8944983818770227,
+      "random_digit_avg_probability": 0.8771521035598706,
+      "difference_points": 1.7346278317152075,
+      "rough_z": 2.1594653231194987
+    }
+  },
+  "historical_first75pct": {
+    "top_hit": {
+      "rate": 0.7305699481865285,
+      "rand": 0.7133851468048359,
+      "n": 1158
+    },
+    "bottom_hit": {
+      "rate": 0.5690846286701209,
+      "rand": 0.5669257340241797,
+      "n": 1158
+    },
+    "either_hit": {
+      "rate": 0.8929188255613126,
+      "rand": 0.8754749568221072,
+      "n": 1158
+    }
+  },
+  "later25pct": {
+    "top_hit": {
+      "rate": 0.7674418604651163,
+      "rand": 0.7235142118863049,
+      "n": 387
+    },
+    "bottom_hit": {
+      "rate": 0.5555555555555556,
+      "rand": 0.5715762273901809,
+      "n": 387
+    },
+    "either_hit": {
+      "rate": 0.8992248062015504,
+      "rand": 0.882170542635659,
+      "n": 387
+    }
+  }
+}

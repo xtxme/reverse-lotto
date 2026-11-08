@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "checks": [
+    "Public parser uses private LINE_EXPORT_PATH and LINE_SENDERS_FILE; no sender names embedded",
+    "Full publication-source run_all completed with private local inputs",
+    "9/9 regression tests passed",
+    "Raw LINE, sender configuration, raw posts and full captured pages excluded",
+    "Legacy phases retained as historical, corrected phase is 03"
+  ],
+  "date": "2026-11-08"
+}

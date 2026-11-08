@@ -1,0 +1,29 @@
+{
+  "observed_counts": [
+    1143,
+    874,
+    1382
+  ],
+  "n": 1545,
+  "within_day_permutation_trials": 10000,
+  "permutation_means": [
+    1107.12,
+    878.13,
+    1355.35
+  ],
+  "permutation_sd": [
+    17.08,
+    18.98,
+    12.22
+  ],
+  "permutation_one_sided_p": [
+    0.015998400159984,
+    0.6000399960003999,
+    0.0150984901509849
+  ],
+  "scores": [
+    "top",
+    "bottom",
+    "either"
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "line_csv_agreement": 7469,
+  "result_rows": 7469,
+  "forecast_rows": 1545,
+  "source_line_errors": 0,
+  "forecast_recalculation_errors": 0,
+  "capture_statuses": {
+    "capture_values_match_origin_unverified": 7295,
+    "capture_date_unreliable": 174
+  },
+  "capture_comparison_after_exclusions": {
+    "match": 7295,
+    "line_missing_capture_present": 171
+  },
+  "excluded_capture_dates": [
+    "2026-09-08",
+    "2026-10-08"
+  ],
+  "ignored_non_date_filenames": [
+    "2026-09-08 08%2F09%2F2569.json",
+    "2026-10-08 08%2F10%2F2569.json"
+  ],
+  "website_verification_status": "UNVERIFIED PROVENANCE: saved result JSONs have no capture URL/time/product identity; contradict current GitHub Phase C archive claim. Matches are file-to-file, not independent server verification.",
+  "starter_json_inventory": [
+    {
+      "file": "line_B_forecast_permutation.json",
+      "type": "json",
+      "keys": [
+        "observed_counts",
+        "n",
+        "within_day_permutation_trials",
+        "permutation_means",
+        "permutation_sd",
+        "permutation_one_sided_p",
+        "scores"
+      ]
+    },
+    {
+      "file": "line_B_hourly_summary.json",
+      "type": "json",
+      "keys": [
+        "forecast_messages",
+        "forecast_hour_entries",
+        "all_target_hours",
+        "evaluated_before_hour_complete_4draws",
+        "date_range",
+        "metrics",
+        "historical_first75pct",
+        "later25pct"
+      ]
+    },
+    {
+      "file": "line_B_picture_rule_tests.json",
+      "type": "json",
+      "keys": [
+        "file",
+        "line_count",
+        "first_date",
+        "last_date",
+        "result_post_count",
+        "unique_rounds_by_close",
+        "conflicting_posted_rounds",
+        "first_conflicts",
+        "contiguous_pairs",
+        "forecast_message_count",
+        "forecast_dates",
+        "all_result_days",
+        "test_results",
+        "quality_note"
+      ]
+    },
+    {
+      "file": "line_B_transition_holdout.json",
+      "type": "json",
+      "keys": [
+        "total_contiguous_pairs",
+        "train_pairs",
+        "validation_pairs",
+        "test_pairs",
+        "train_dates",
+        "test_dates",
+        "models"
+      ]
+    }
+  ]
+}

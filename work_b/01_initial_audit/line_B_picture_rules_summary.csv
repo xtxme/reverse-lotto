@@ -1,0 +1,11 @@
+test,triggers,hits,hit_rate_pct,theoretical_baseline_pct,empirical_baseline_pct,uniform_onesided_p_approx
+Photo1: next bottom 2 after bottom double,730,49,6.71,7.0,7.13,0.640248
+Photo1: next top last2 after bottom double,730,49,6.71,7.0,6.66,0.640248
+Photo2: next bottom2 after 69,75,5,6.67,9.0,9.09,0.81596
+Photo2: next bottom2 after 65,78,7,8.97,9.0,9.09,0.560454
+Photo2: next bottom2 after 69 OR 65,153,12,7.84,9.0,9.09,0.731687
+Photo2: next top last2 after 69,75,8,10.67,9.0,9.4,0.362187
+Photo2: next top last2 after 69 OR 65,153,19,12.42,9.0,9.4,0.094706
+"Photo3 #8: after bottom double, next bottom contains 0 or adjacent digits",730,240,32.88,35.0,34.79,0.893212
+"Photo3 #12: after bottom double, next bottom contains digit 8",730,143,19.59,19.0,20.09,0.356825
+Photo3 #7: top3 triple then next top contains that digit,71,18,,,,

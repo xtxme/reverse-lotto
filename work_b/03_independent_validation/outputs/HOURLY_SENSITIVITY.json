@@ -1,0 +1,90 @@
+{
+  "full_outcome_correction": {
+    "bonferroni": [
+      0.05864706764661767,
+      1,
+      0.04904754762261887
+    ],
+    "holm": [
+      0.04904754762261887,
+      0.5973201339933003,
+      0.04904754762261887
+    ]
+  },
+  "retrospective_late_diagnostic": {
+    "n": 312,
+    "days": 18,
+    "hits": [
+      235,
+      174,
+      279
+    ],
+    "p": [
+      0.1694915254237288,
+      0.7106144692765362,
+      0.1767911604419779
+    ],
+    "correction": {
+      "bonferroni": [
+        0.5084745762711864,
+        1,
+        0.5303734813259338
+      ],
+      "holm": [
+        0.5084745762711864,
+        0.7106144692765362,
+        0.5084745762711864
+      ]
+    },
+    "null_mean": [
+      227.33635,
+      178.20035,
+      273.4054
+    ]
+  },
+  "month_stratified_whole_vector_null": {
+    "days": 70,
+    "n": 1284,
+    "hits": [
+      941,
+      726,
+      1145
+    ],
+    "p": [
+      0.017699115044247787,
+      0.6521673916304185,
+      0.022298885055747213
+    ],
+    "correction": {
+      "bonferroni": [
+        0.05309734513274336,
+        1,
+        0.06689665516724164
+      ],
+      "holm": [
+        0.05309734513274336,
+        0.6521673916304185,
+        0.05309734513274336
+      ]
+    },
+    "null_mean": [
+      908.61745,
+      732.34165,
+      1122.15545
+    ],
+    "assumption": "daily forecast vectors exchangeable within month; original eligibility fixed; incomplete vectors excluded"
+  },
+  "max_hour_top_surplus": {
+    "hours_tested": 21,
+    "observed": 9.699999999999974,
+    "p": 0.09129543522823859,
+    "B": 20000
+  },
+  "seed_and_B": {
+    "base": 20261108,
+    "vector": 20261109,
+    "hourmax": 20261110,
+    "B": 20000
+  },
+  "warning": "All retrospective; sensitivity families descriptive. No prospective claim. Do not choose a null model or correction based on which gives significance."
+}

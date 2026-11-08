@@ -1,0 +1,9 @@
+**/data/
+**/__pycache__/
+**/*.pyc
+**/*.log
+**/hourly_forecast_posts.json
+**/hourly_forecasts_resolved.csv
+**/line_export_raw.txt
+**/private_line_export.txt
+**/senders.json

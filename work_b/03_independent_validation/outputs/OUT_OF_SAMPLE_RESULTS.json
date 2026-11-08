@@ -1,0 +1,144 @@
+{
+  "days": 87,
+  "train_days": [
+    "2026-08-13",
+    "2026-10-03"
+  ],
+  "validation_days": [
+    "2026-10-04",
+    "2026-10-20"
+  ],
+  "test_days": [
+    "2026-10-21",
+    "2026-11-07"
+  ],
+  "train_pairs": 4437,
+  "validation_pairs": 1412,
+  "test_pairs": 1503,
+  "models": [
+    {
+      "model": "uniform",
+      "selected_alpha": null,
+      "validation_log_loss": 4.605170185988092,
+      "test_log_loss": 4.605170185988092,
+      "test_brier": 0.99,
+      "test_top1_accuracy": 0.01,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "note": "1/100 for every number"
+    },
+    {
+      "model": "train_marginal",
+      "selected_alpha": null,
+      "validation_log_loss": 4.616567078661067,
+      "test_log_loss": 4.612139799743617,
+      "test_brier": 0.9901452250482593,
+      "test_top1_accuracy": 0.004657351962741184,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.006969613755525295,
+      "delta_boot_ci_low": 0.0012570613422818104,
+      "delta_boot_ci_high": 0.012479404107040765,
+      "note": "alpha selected on validation; test evaluated once"
+    },
+    {
+      "model": "prev_lastdigit",
+      "selected_alpha": 1000.0,
+      "validation_log_loss": 4.622210331150614,
+      "test_log_loss": 4.616436529552535,
+      "test_brier": 0.9902320746513781,
+      "test_top1_accuracy": 0.010645375914836993,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.01126634356444356,
+      "delta_boot_ci_low": 0.0020912791988698005,
+      "delta_boot_ci_high": 0.019773433355872165,
+      "note": "alpha selected on validation; test evaluated once"
+    },
+    {
+      "model": "prev_tensdigit",
+      "selected_alpha": 1000.0,
+      "validation_log_loss": 4.627381558339554,
+      "test_log_loss": 4.621076451431624,
+      "test_brier": 0.9903363897922529,
+      "test_top1_accuracy": 0.00998003992015968,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.01590626544353224,
+      "delta_boot_ci_low": 0.005264514522656904,
+      "delta_boot_ci_high": 0.026786999896536927,
+      "note": "alpha selected on validation; test evaluated once"
+    },
+    {
+      "model": "prev_bottom2",
+      "selected_alpha": 1000.0,
+      "validation_log_loss": 4.620965373002981,
+      "test_log_loss": 4.613886037693024,
+      "test_brier": 0.990179046269372,
+      "test_top1_accuracy": 0.007984031936127744,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.008715851704931943,
+      "delta_boot_ci_low": 0.002043798159045904,
+      "delta_boot_ci_high": 0.014948646945394429,
+      "note": "alpha selected on validation; test evaluated once"
+    },
+    {
+      "model": "prev_double",
+      "selected_alpha": 1000.0,
+      "validation_log_loss": 4.61923467609378,
+      "test_log_loss": 4.615822079526768,
+      "test_brier": 0.9902136132797079,
+      "test_top1_accuracy": 0.007984031936127744,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.010651893538676127,
+      "delta_boot_ci_low": 0.003277990681124124,
+      "delta_boot_ci_high": 0.01816959505471026,
+      "note": "alpha selected on validation; test evaluated once"
+    },
+    {
+      "model": "prev_sum_bucket",
+      "selected_alpha": 1000.0,
+      "validation_log_loss": 4.6254330286254755,
+      "test_log_loss": 4.614628830418086,
+      "test_brier": 0.9902055468074149,
+      "test_top1_accuracy": 0.007318695941450432,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.009458644429994223,
+      "delta_boot_ci_low": 0.001862643085015509,
+      "delta_boot_ci_high": 0.01726917433894134,
+      "note": "alpha selected on validation; test evaluated once"
+    },
+    {
+      "model": "prev_top_last",
+      "selected_alpha": 1000.0,
+      "validation_log_loss": 4.622731627255528,
+      "test_log_loss": 4.621534996652561,
+      "test_brier": 0.9903233271884705,
+      "test_top1_accuracy": 0.011310711909514305,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.016364810664469154,
+      "delta_boot_ci_low": 0.009113837580754113,
+      "delta_boot_ci_high": 0.023350942098986575,
+      "note": "alpha selected on validation; test evaluated once"
+    },
+    {
+      "model": "prev_pair_last",
+      "selected_alpha": 1000.0,
+      "validation_log_loss": 4.616732229211004,
+      "test_log_loss": 4.611736798358438,
+      "test_brier": 0.9901367194322641,
+      "test_top1_accuracy": 0.007318695941450432,
+      "test_n": 1503,
+      "beats_uniform": 0,
+      "delta_vs_uniform": 0.006566612370345837,
+      "delta_boot_ci_low": 0.0003076366755362197,
+      "delta_boot_ci_high": 0.012645319674142093,
+      "note": "alpha selected on validation; test evaluated once"
+    }
+  ],
+  "note": "No model uses data after its own row; split is chronological by trading day."
+}

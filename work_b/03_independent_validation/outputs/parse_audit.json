@@ -1,0 +1,25 @@
+{
+  "raw_lines": 233724,
+  "date_headers": 87,
+  "messages": 16254,
+  "result_blocks": 7469,
+  "unique_round_records": 7469,
+  "result_value_conflicts": 0,
+  "inline_table_rows": 133144,
+  "inline_table_value_conflicts": 0,
+  "headline_vs_table_agree": 7469,
+  "headline_vs_table_disagree": 0,
+  "mismatch_examples": [],
+  "delay_min_summary": {
+    "min": 2.0,
+    "max": 6.0,
+    "median": 2.0,
+    "n_over_60min": 0,
+    "n_negative": 0
+  },
+  "authors_of_result_posts": {
+    "FORECASTER_01": 7469
+  },
+  "trading_days": 87,
+  "total_missing_rounds": 187
+}

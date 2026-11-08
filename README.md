@@ -173,3 +173,9 @@ Not suitable for a production replica without explicit authorization and complia
 ## Ethical note
 
 No authentication bypass, vulnerability exploitation, automated submissions, bets, or unauthorized data access occurred. Exposure findings are reported for responsible remediation and do not enable prediction or cheating. No betting recommendations are made.
+
+
+## งาน B — LINE forecast and pattern audit
+
+งาน B ทุกระยะรวมอยู่ใน **[work_b/](work_b/README.md)** แยกจากงานวิจัยเว็บไซต์ด้านบน เริ่มอ่าน [ฉบับตรวจแก้ไขล่าสุด](work_b/03_independent_validation/FINAL_INDEPENDENT_REPORT_TH.md) ส่วน `phase_b/` และ `phase_c/` ที่ root ยังคงเป็นระยะวิจัยเว็บไซต์ของงาน A
+
