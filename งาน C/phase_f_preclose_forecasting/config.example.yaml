@@ -1,0 +1,12 @@
+# Phase F shares Phase D's browser profile, HMAC key and request ledger.
+# Keep this file outside the repository; the real one lives in the private state dir.
+phase_d_root: /Users/icy/reverse-lotto/งาน A/phase_d_account_monitoring
+phase_d_config: /Users/icy/Library/Application Support/ThlottoResearch/phase_d/config.yaml
+state_dir: /Users/icy/Library/Application Support/ThlottoResearch/phase_f
+horizons: [120, 60, 30, 10]
+max_pages: 12
+deadline_safety_seconds: 8
+lock_timeout_seconds: 25
+snapshot_window_seconds: 130
+pf_hourly_headroom: 8
+automated_access_permitted: false
